@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://poly-godot/example.gd" type="Script" id=1]
+[ext_resource path="res://godot-camera-control/assets/maujoe.camera_control/scripts/camera_control.gd" type="Script" id=2]
+
+[node name="Node" type="Node"]
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04567, 0, 5.2243 )
+fov = 68.8143
+far = 8192.0
+script = ExtResource( 2 )
+
+[node name="Spatial" type="Spatial" parent="."]
+script = ExtResource( 1 )
+
+[node name="OmniLight" type="OmniLight" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.12408, 5.72697, 12.8646 )
+omni_range = 4096.0

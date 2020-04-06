@@ -1,0 +1,6 @@
+[submodule "gd-obj"]
+	path = gd-obj
+	url = https://github.com/Ralane/gd-obj.git
+[submodule "godot-camera-control"]
+	path = godot-camera-control
+	url = https://github.com/Maujoe/godot-camera-control.git
