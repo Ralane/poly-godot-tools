@@ -1,4 +1,6 @@
-# poly-godot-tools
+# poly-godot-tools DEPRECATED
+
+## Google Poly no longer exists, so this tool is no longer usable
 
 A tool to allow real-time grabbing of models from [Google Poly](https://poly.google.com/) in Godot.
 
